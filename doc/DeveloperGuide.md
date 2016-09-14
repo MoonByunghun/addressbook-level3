@@ -79,10 +79,10 @@ Use case ends.
 
 **MSS**
 
-1. User requests to list persons
-2. AddressBook shows a list of persons
-3. User requests to rename the tag of a specific person in the list
-4. AddressBook updates the new tag of the person
+1. User requests to list tags
+2. AddressBook shows a list of tags
+3. User requests to rename the tag specific tag in list
+4. AddressBook updates the new tag
 Use case ends.
 
 **Extensions**
@@ -91,7 +91,7 @@ Use case ends.
 
 > Use case ends
 
-3a. The given index is invalid
+3a. The given index is invalid / requested name is invalid
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
