@@ -122,6 +122,13 @@ public class AddressBook {
     public void removeTag(Tag toRemove) throws TagNotFoundException {
         allTags.remove(toRemove);
     }
+    
+    /**
+     * Sorts the address book in alphabetical order.
+     */
+    public void sort(){
+        allPersons.sort();
+    }
 
     /**
      * Clears all persons and tags from the address book.
